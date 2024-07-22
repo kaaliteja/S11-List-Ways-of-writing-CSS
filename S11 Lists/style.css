@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(215, 199, 52);
+}
+ol,ul{
+    display: inline-block;
+}
+
+ul{
+    list-style-type: square;
+}
+
+li::marker{
+    content:"@";
+}
+
+#ENGStates li::marker{
+    content:"--->";
+}
+
+dt{
+    color:whitesmoke;
+    background-color: black ;
+    width:80px;
+}
